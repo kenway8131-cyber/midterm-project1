@@ -1,0 +1,101 @@
+/* Reset basic settings */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    /* UPDATED: Background is now light blue */
+    background-color: lightblue; 
+    /* UPDATED: Letters (text) are now dark blue */
+    color: darkblue; 
+}
+
+/* Container to center content */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* UPDATED: Links are now purple */
+a {
+    color: purple;
+    text-decoration: none; /* Removes underline if you prefer */
+}
+
+a:hover {
+    text-decoration: underline; /* Adds underline when you mouse over */
+}
+
+/* Header Styling */
+header {
+    background: midnightblue; /* Made header a deeper blue to match */
+    color: #fff; /* Keep header text white so it is readable */
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: purple 3px solid; /* Changed border to match links */
+}
+
+header h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+/* Navigation Menu */
+header nav ul {
+    padding: 0;
+    text-align: center;
+}
+
+header nav li {
+    display: inline;
+    padding: 0 20px;
+}
+
+/* Navigation Links specific style */
+header nav a {
+    color: #fff; /* Keep nav links white for contrast on dark header */
+    font-weight: bold;
+}
+
+header nav a:hover {
+    color: purple; /* Turns purple when you hover */
+}
+
+/* Section Styling */
+.section {
+    padding: 20px;
+    background: #e6f7ff; /* A very light blue for content boxes */
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid darkblue; /* Added a border to make sections pop */
+}
+
+/* Image Styling */
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid darkblue; /* Changed border to dark blue */
+    display: block;
+    margin: 10px auto;
+}
+
+/* Skills List Styling */
+.skills-list li {
+    background: #b3d9ff; /* Blueish background for list items */
+    margin: 5px 0;
+    padding: 10px;
+    list-style: none;
+    border-left: 5px solid purple; /* Purple accent */
+}
+
+/* Footer Styling */
+footer {
+    background-color: midnightblue; /* Matches header */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
